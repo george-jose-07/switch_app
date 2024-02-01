@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 class MyHome extends StatefulWidget {
   const MyHome({super.key});
@@ -22,7 +21,7 @@ class _MyHomeState extends State<MyHome> {
     Colors.indigo,
     Colors.brown
   ];
-  List<Color> allconColor = [
+  List<Color> allSubColor = [
     Colors.yellow,
     Colors.red,
     Colors.indigo,
@@ -57,7 +56,7 @@ class _MyHomeState extends State<MyHome> {
                   onPressed: _incrementCounter,
                   icon: Icon(
                     Icons.lightbulb_outline,
-                    color: allconColor[_counter],
+                    color: allSubColor[_counter],
                     size: 50,
                   )),
             ],
